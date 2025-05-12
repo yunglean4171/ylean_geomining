@@ -13,3 +13,6 @@ Showcase: https://streamable.com/c6ta2m
 * The script code is open, allowing you to make any changes and customize it to your server.
 * Easy to install and translate.
 * The script is highly optimized.
+
+# Contributing
+If you have some ideas that you want to suggest please make a [pull requests](https://github.com/yunglean4171/ylean_geomining/pulls) and if you found some bugs please make an [issue](https://github.com/yunglean4171/ylean_geomining/issues). Every contribution will be appreciated.
