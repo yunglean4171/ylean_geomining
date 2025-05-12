@@ -1,0 +1,2 @@
+ALTER TABLE players
+ADD COLUMN steps INT DEFAULT 0;

@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+.panel {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,52,73,1) 0%, rgba(31,47,58,1) 100%, rgba(0,212,255,1) 100%);
+  border-radius: 20px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  height: 580px;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-right: 10px; 
+}
+
+.additional-title {
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  background: rgb(94,90,90);
+  background: -moz-linear-gradient(90deg, rgba(94,90,90,1) 0%, rgba(61,57,57,1) 0%, rgba(76,76,77,1) 15%);
+  background: -webkit-linear-gradient(90deg, rgba(94,90,90,1) 0%, rgba(61,57,57,1) 0%, rgba(76,76,77,1) 15%);
+  background: linear-gradient(90deg, rgba(94,90,90,1) 0%, rgba(61,57,57,1) 0%, rgba(76,76,77,1) 15%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5e5a5a",endColorstr="#4c4c4d",GradientType=1);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap; 
+  justify-content: flex-start;
+}
+
+.leaderboard-title {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.leaderboard-container {
+  padding-left: 10px;
+  width: 35%;
+}
+
+.leaderboard {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.leaderboard th {
+  padding: 10px;
+}
+
+.leaderboard td {
+  padding: 5px;
+}
+
+.leaderboard tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.shop-container {
+  width: 62%; 
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: flex-start;
+  overflow-y: auto; 
+  max-height: 450px; 
+  scrollbar-width: thin;
+  scrollbar-color: #D62929 #F5F5F5;
+}
+
+.shop-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.shop-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+.shop-container::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #D62929;
+}
+
+.shop-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin: 10px; 
+  border-radius: 10px;
+  width: 200px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;  
+  cursor: pointer; 
+}
+
+.shop-item-icon {
+  width: 100px;  
+  height: 100px; 
+}
+
+.shop-item-label {
+  color: white;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;  
+  font-size: 16px;  
+}
+
+.shop-item-price {
+  color: white;
+  margin-top: 5px;
+  font-family: 'Montserrat', sans-serif;  
+  font-size: 16px;  
+}
+
+
+
